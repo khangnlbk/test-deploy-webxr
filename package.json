@@ -9,7 +9,7 @@
     "serve": "webpack-dev-server",
     "watch": "webpack --watch",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "npm gh-pages -d build"
   },
   "repository": {
     "type": "git",
